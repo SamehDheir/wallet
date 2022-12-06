@@ -1,0 +1,98 @@
+.logo {
+  height: 35px;
+}
+
+.links:hover {
+  border-bottom: 3px solid #51b56d;
+  color: #51b56d !important;
+}
+
+.login {
+  background-color: #e0f2e5;
+  color: #51b56d;
+}
+.signup {
+  background-color: #51b56d;
+  color: white;
+}
+
+.login:hover {
+  background-color: #51b56d;
+  color: white;
+}
+
+.signup:hover {
+  background-color: #42955a;
+  color: white;
+}
+
+.hero h1 {
+  font-weight: 900;
+  padding-right: 70px;
+  font-size: 48px;
+}
+
+.services h6 {
+  color: #42955a;
+  font-weight: bold;
+}
+
+.services h2 {
+    font-weight: 800;
+}
+
+.services .person-services .sv1 {
+    background-color: #E9E4FB;
+    color: #917AEB;
+    font-weight: 900;
+}
+.services .person-services .sv2 {
+    background-color: #DEF0E2;
+    color: #51B56D;
+    font-weight: 900;
+}
+
+.services .person-services:hover {
+    box-shadow: 0 0 100px #cbcaca;
+}
+
+.about h6 {
+  color: #42955a;
+  font-weight: bold;
+}
+
+.about h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.deffernce h6 {
+  color: #42955a;
+  font-weight: bold;
+}
+
+.deffernce h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.deffernce .shield {
+  font-size: 45px;
+  background-color: #F3F1FD;
+  color: #917AEB;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+ @media (max-width: 630px) { 
+  .about img{
+    width: 100%;
+  }
+  .hero img {
+    width: 100%;
+  }
+
+  .deffernce h2 {
+    font-size: 20px;
+  }
+ } 
+
